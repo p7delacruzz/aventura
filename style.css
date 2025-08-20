@@ -1,0 +1,81 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fundo e fonte */
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Cabeçalho */
+header {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+}
+header h1 {
+  font-size: 2rem;
+  color: #ff99cc;
+}
+header p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Área principal */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#game {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(255, 153, 204, 0.3);
+}
+
+/* Texto */
+#story {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Botões */
+button {
+  background: #ff99cc;
+  border: none;
+  color: #222;
+  font-weight: bold;
+  padding: 12px 20px;
+  margin: 8px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #ff77aa;
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 0.8rem;
+  color: #aaa;
+}
